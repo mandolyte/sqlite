@@ -1,0 +1,24 @@
+-rw-r--r-- 1 cecil cecil 1921024 Apr  1 21:28 tw.db
+[2023-04-02T01:28:05Z INFO  sqlite_zstd::create_extension] [sqlite-zstd] initialized
+CREATE TABLE tw (
+  name text primary key,
+  keyterm text,
+  keyword text,
+  data text
+);
+[2023-04-02T01:28:05Z WARN  sqlite_zstd::transparent] Warning: It is recommended to set `pragma journal_mode=WAL;`
+[2023-04-02T01:28:05Z WARN  sqlite_zstd::transparent] Warning: It is recommended to set `pragma auto_vacuum=full;`
+[2023-04-02T01:28:05Z WARN  sqlite_zstd::transparent] Warning: It is recommended to set `pragma busy_timeout=2000;` or higher
+Done!
+[2023-04-02T01:28:05Z WARN  sqlite_zstd::transparent] Warning: It is recommended to set `pragma journal_mode=WAL;`
+[2023-04-02T01:28:05Z WARN  sqlite_zstd::transparent] Warning: It is recommended to set `pragma auto_vacuum=full;`
+[2023-04-02T01:28:05Z WARN  sqlite_zstd::transparent] Warning: It is recommended to set `pragma busy_timeout=2000;` or higher
+[2023-04-02T01:28:05Z INFO  sqlite_zstd::transparent] tw.data: Total 935 rows (1.46MB) to potentially compress (split in 1 groups).
+[2023-04-02T01:28:05Z INFO  sqlite_zstd::transparent] Compressed 935 rows with dict_choice=a (dict_id=1). Total size of entries before: 1.46MB, afterwards: 434.39kB, (average: before=1.56kB, after=464B)
+[2023-04-02T01:28:05Z INFO  sqlite_zstd::transparent] Handled 935 / 935 rows  (1.46MB / 1.46MB)
+[2023-04-02T01:28:05Z INFO  sqlite_zstd::transparent] All maintenance work completed!
+0
+_tw_zstd       _zstd_configs  _zstd_dicts    tw           
+935
+winepress|other
+-rw-r--r-- 1 cecil cecil 3878912 Apr  1 21:28 tw.db
